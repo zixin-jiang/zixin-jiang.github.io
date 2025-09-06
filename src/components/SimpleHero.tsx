@@ -21,9 +21,8 @@ const SimpleHero = () => {
                   I am a Ph.D. candidate in Finance at the University of North Carolina at Charlotte, currently on the 2025/26 academic job market.
                 </p>
                 <p>
-                  My research interests are <strong>corporate finance</strong> and <strong>asset pricing</strong>. 
-                  Specifically, I am interested in capital structure, governance, and equity market anomalies. 
-                  I use machine learning, causal inference, and structural models for my research.
+                  My research interests are <strong>corporate finance</strong> and <strong>real estate </strong>. 
+                  Specifically, I am interested in mortgage markets. 
                 </p>
               </div>
             </div>
