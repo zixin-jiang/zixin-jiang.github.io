@@ -14,7 +14,7 @@ const SimpleResearch = () => {
     },
     {
       title: "Labor Covenants in Loan Contracting",
-      coauthors: ["Yongqiang Chu", "Hanzhong Shi", and "Liang Tan"],
+      coauthors: ["Yongqiang Chu", "Hanzhong Shi", "Liang Tan"],
       status: "Under Review at Journal of Financial Economics.",
       link: "#"
     }
