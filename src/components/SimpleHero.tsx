@@ -11,7 +11,7 @@ const SimpleHero = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-5xl lg:text-6xl font-light text-foreground leading-tight">
-                Hello! I'm [Zixin Jiang （江紫新）]
+                Zixin Jiang （江紫新）
               </h1>
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
