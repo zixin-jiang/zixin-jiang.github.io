@@ -1,10 +1,10 @@
 const SimpleTeaching = () => {
   const courses = [
     {
-      title: "Corporate Finance",
+      title: "Financial Management",
       level: "Undergraduate",
-      institution: "University Name",
-      years: "2023-2024"
+      institution: "UNC Charlotte",
+      years: "Spring 2024, Summer 2024 & Fall 2024"
     },
     {
       title: "Investment Management", 
