@@ -15,7 +15,7 @@ const SimpleHero = () => {
               </h1>
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  I am an Assistant Professor of Finance in [School Name], [University Name].
+                  Welcome to my webpage! I'm a Ph.D. candidate in the Department of Finance at University of North Carolina at Charlotte (UNC Charlotte).
                 </p>
                 <p>
                   My research interests are <strong>corporate finance</strong> and <strong>asset pricing</strong>. 
