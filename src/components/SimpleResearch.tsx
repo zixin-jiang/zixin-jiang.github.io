@@ -4,7 +4,7 @@ const SimpleResearch = () => {
       title: "Political Affiliation and the Pricing of Climate Risk in Mortgages",
       coauthors: [],
       status:
-        "AFA PhD Student Poster Session (2026); FMA (2025); Nankai University (2025); UNC Charlotte Finance Seminar (2025)",
+        "AFA PhD Student Poster Session (2026); FMA (2025); Ba Li Tai Young Finance Scholar Forum (Nankai University, 2025); UNC Charlotte Finance Seminar (2025)",
       link: "#",
     },
     {
