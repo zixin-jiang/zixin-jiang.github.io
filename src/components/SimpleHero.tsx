@@ -22,8 +22,7 @@ const SimpleHero = () => {
                   I am mentored by Dr. Yongqiang Chu. 
                 </p>
                 <p>
-                  My research interests are <strong>corporate finance</strong> and <strong>real estate </strong>. 
-                  Specifically, I am interested in mortgage markets. 
+                  My research interests are <strong>corporate finance</strong> and <strong>real estate </strong>.  
                 </p>
               </div>
             </div>
