@@ -1,23 +1,12 @@
 const SimpleResearch = () => {
   const workingPapers = [
     {
-        title: "Political Affiliation and the Pricing of Climate Risk in Mortgage Lending",
-        authorship: "Solo-authored",
-        status: "Major Revision at Journal of Corporate Finance.",
-        link: "#"
-    }
-    {
-      title: "Volatility Spillovers in International Equity Markets",
-      coauthors: ["Alice Johnson"],
-      status: "Under Review at Review of Financial Studies.",
+      title: "Political Affiliation and the Pricing of Climate Risk in Mortgage Lending",
+      authorship: "Solo-authored",
+      status: "Major Revision at Journal of Corporate Finance.",
       link: "#"
     },
-    {
-      title: "The Role of Institutional Investors in Price Discovery",
-      coauthors: [],
-      status: "Under Review at Journal of Financial Economics.",
-      link: "#"
-    }
+
   ];
 
 
