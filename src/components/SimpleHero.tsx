@@ -18,7 +18,7 @@ const SimpleHero = () => {
                   Welcome to my webpage! 
                   </p>
                 <p>
-                  I am a Ph.D. candidate in Finance at the University of North Carolina at Charlotte, currently on the 2025/26 academic job market.
+                  I am a Ph.D. candidate in Finance at the University of North Carolina at Charlotte (UNC Charlotte), currently on the 2025/26 academic job market.
                   I am mentored by Dr. Yongqiang Chu. 
                 </p>
                 <p>
@@ -34,7 +34,7 @@ const SimpleHero = () => {
                 className="rounded-full px-8 py-3 border-foreground text-foreground hover:bg-foreground hover:text-background transition-colors"
               >
                 <Mail className="w-4 h-4 mr-2" />
-                Email: zjiang5@charlotte.edu
+                Email: your.email@university.edu
               </Button>
               <Button 
                 variant="outline" 
