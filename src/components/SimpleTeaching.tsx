@@ -12,14 +12,14 @@ const SimpleTeaching = () => {
       level: "Undergraduate",
       institution: "UNC Charlotte",
       years: "Summer 2024",
-      evaluation: "Evaluation: 4.32/5.00, Response: 35/50 students"
+      evaluation: "Evaluation: 4.32/5.00, Response: 25/28 students"
     },
     {
       title: "FINN 3120 Financial Management",
       level: "Undergraduate",
       institution: "UNC Charlotte",
       years: "Spring 2024",
-      evaluation: "Evaluation: 4.50/5.00, Response: 80/95 students"
+      evaluation: "Evaluation: 3.57/5.00, Response: 61/77 students"
     }
   ];
 
