@@ -1,17 +1,11 @@
-import Hero from "@/components/Hero";
-import Research from "@/components/Research";
-import Publications from "@/components/Publications";
-import Teaching from "@/components/Teaching";
-import Contact from "@/components/Contact";
+import SimpleHero from "@/components/SimpleHero";
+import SimpleResearch from "@/components/SimpleResearch";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Hero />
-      <Research />
-      <Publications />
-      <Teaching />
-      <Contact />
+      <SimpleHero />
+      <SimpleResearch />
     </div>
   );
 };

@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        'serif': ['Playfair Display', 'serif'],
         'sans': ['Inter', 'system-ui', 'sans-serif'],
+        'serif': ['Georgia', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -51,12 +51,6 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Academic design tokens
-        'academic-blue': "hsl(var(--academic-blue))",
-        'academic-blue-light': "hsl(var(--academic-blue-light))",
-        'academic-blue-dark': "hsl(var(--academic-blue-dark))",
-        'academic-gray': "hsl(var(--academic-gray))",
-        'academic-gray-light': "hsl(var(--academic-gray-light))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -67,14 +61,6 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-      },
-      backgroundImage: {
-        'gradient-academic': 'var(--gradient-academic)',
-        'gradient-subtle': 'var(--gradient-subtle)',
-      },
-      boxShadow: {
-        'elegant': 'var(--shadow-elegant)',
-        'card-academic': 'var(--shadow-card)',
       },
       borderRadius: {
         lg: "var(--radius)",
