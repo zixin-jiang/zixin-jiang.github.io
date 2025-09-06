@@ -1,19 +1,19 @@
 const SimpleTeaching = () => {
   const courses = [
     {
-      title: "Financial Management",
+      title: "FINN 3120 Financial Management",
       level: "Undergraduate",
       institution: "UNC Charlotte",
       years: "Fall 2024"
     },
     {
-      title: "Financial Management",
+      title: "FINN3120 Financial Management",
       level: "Undergraduate",
       institution: "UNC Charlotte",
       years: "Summer 2024"
     },
     {
-      title: "Financial Management",
+      title: "FINN3120 Financial Management",
       level: "Undergraduate",
       institution: "UNC Charlotte",
       years: "Spring 2024"
