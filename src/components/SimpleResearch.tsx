@@ -14,7 +14,7 @@ const SimpleResearch = () => {
     }
   ];
 
-    const workInProgress = [
+  const workInProgress = [
     {
       title: "Labor Covenants in Loan Contracting",
       coauthors: ["Yongqiang Chu", "Hanzhong Shi", "Liang Tan"],
