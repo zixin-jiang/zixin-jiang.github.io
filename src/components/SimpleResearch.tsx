@@ -26,6 +26,20 @@ const SimpleResearch = () => {
     }    
   ];
 
+    const work-in-progress = [
+    {
+      title: "Labor Covenants in Loan Contracting",
+      coauthors: ["Yongqiang Chu", "Hanzhong Shi", "Liang Tan"],
+      status: "",
+      link: "#"
+    },
+    {
+      title: "Corporate Relocations and Insider Housing Transactions",
+      coauthors: ["Yongqiang Chu", "Hanzhong Shi"],
+      status: "",
+      link: "#"
+    }    
+  ];
 
   return (
     <section className="py-20 px-8 bg-background">
