@@ -4,19 +4,19 @@ const SimpleTeaching = () => {
       title: "Financial Management",
       level: "Undergraduate",
       institution: "UNC Charlotte",
-      years: "Spring 2024, Summer 2024 & Fall 2024"
+      years: "Fall 2024"
     },
     {
-      title: "Investment Management", 
-      level: "Graduate",
-      institution: "University Name",
-      years: "2022-2024"
+      title: "Financial Management",
+      level: "Undergraduate",
+      institution: "UNC Charlotte",
+      years: "Summer 2024"
     },
     {
-      title: "Financial Markets and Institutions",
-      level: "Undergraduate", 
-      institution: "University Name",
-      years: "2021-2023"
+      title: "Financial Management",
+      level: "Undergraduate",
+      institution: "UNC Charlotte",
+      years: "Spring 2024"
     }
   ];
 
