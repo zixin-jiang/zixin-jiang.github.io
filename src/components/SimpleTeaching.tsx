@@ -46,9 +46,7 @@ const SimpleTeaching = () => {
                   {course.institution}, {course.years}
                 </p>
                 {course.evaluation && (
-                  <p className="text-muted-foreground">
-                    • {course.evaluation}
-                  </p>
+                  <p className="text-muted-foreground">{course.evaluation}</p>
                 )}
               </div>
             ))}
