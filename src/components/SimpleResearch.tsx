@@ -45,7 +45,7 @@ const SimpleResearch = () => {
                     >
                       {paper.title}
                     </a>
-                    {paper.coauthors.length > 0 && (
+                    {paper.coauthors?.length > 0 && (
                       <span className="text-lg text-foreground">
                         , with {paper.coauthors.join(", ")}.
                       </span>
