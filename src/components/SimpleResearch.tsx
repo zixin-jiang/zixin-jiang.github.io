@@ -1,7 +1,7 @@
 const SimpleResearch = () => {
   const workingPapers = [
     {
-      title: "Political Affiliation and the Pricing of Climate Risk in Mortgage Lending",
+      title: "Bank mergers",
       coauthors: [],
       status: "AFA PhD Student Poster Session(2026); FMA (2025); Nankai Univeristy (2025); UNC Charlotte Finance Seminar (2025) ",
       link: "#"
