@@ -2,8 +2,7 @@ const SimpleResearch = () => {
   const workingPapers = [
     {
       title: "Political Affiliation and the Pricing of Climate Risk in Mortgage Lending",
-      author: "Zixin Jiang",
-      authorship: "Solo-authored",
+      coauthors: [],
       status: "Major Revision at Journal of Corporate Finance.",
       link: "#"
     },
