@@ -13,8 +13,8 @@ const SimpleResearch = () => {
       link: "#"
     },
     {
-      title: "The Role of Institutional Investors in Price Discovery",
-      coauthors: [],
+      title: "Labor Covenants in Loan Contracting",
+      coauthors: ["Yongqiang Chu", "Hanzhong Shi", and "Liang Tan"],
       status: "Under Review at Journal of Financial Economics.",
       link: "#"
     }
