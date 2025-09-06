@@ -1,7 +1,7 @@
 const SimpleResearch = () => {
   const workingPapers = [
     {
-      title: "Political Affiliation and the Pricing of Climate Risk in Mortgage Lending"
+      title: "Political Affiliation and the Pricing of Climate Risk in Mortgage Lending",
       coauthors: ["John Smith", "Jane Doe"],
       status: "Major Revision at Journal of Corporate Finance.",
       link: "#"
