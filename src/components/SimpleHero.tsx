@@ -19,6 +19,7 @@ const SimpleHero = () => {
                   </p>
                 <p>
                   I am a Ph.D. candidate in Finance at the University of North Carolina at Charlotte, currently on the 2025/26 academic job market.
+                  I am supervised by Dr. Yongqiang Chu. 
                 </p>
                 <p>
                   My research interests are <strong>corporate finance</strong> and <strong>real estate </strong>. 
