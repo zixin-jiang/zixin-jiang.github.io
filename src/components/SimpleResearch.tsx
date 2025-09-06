@@ -3,7 +3,7 @@ const SimpleResearch = () => {
     {
       title: "Political Affiliation and the Pricing of Climate Risk in Mortgage Lending",
       coauthors: [],
-      status: "Major Revision at Journal of Corporate Finance.",
+      status: "AFA PhD Student Poster Session(2026) ",
       link: "#"
     },
     {
