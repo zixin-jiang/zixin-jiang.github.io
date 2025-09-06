@@ -16,6 +16,8 @@ const SimpleHero = () => {
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
                   Welcome to my webpage! 
+                  </p>
+                <p>
                   I'm a Ph.D. candidate in the Department of Finance, University of North Carolina at Charlotte (UNC Charlotte).
                 </p>
                 <p>
