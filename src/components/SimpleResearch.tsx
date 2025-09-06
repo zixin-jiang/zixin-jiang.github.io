@@ -7,9 +7,9 @@ const SimpleResearch = () => {
       link: "#"
     },
     {
-      title: "Volatility Spillovers in International Equity Markets",
-      coauthors: ["Alice Johnson"],
-      status: "Under Review at Review of Financial Studies.",
+      title: "Bank Mergers and Loan Officer Reallocation",
+      coauthors: [],
+      status: "FMA (2025); SFA (2025); AREUEA National Conference (2025); UNC Charlotte Finance Seminar (2024)",
       link: "#"
     },
     {
