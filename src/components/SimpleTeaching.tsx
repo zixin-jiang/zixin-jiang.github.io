@@ -4,19 +4,22 @@ const SimpleTeaching = () => {
       title: "FINN 3120 Financial Management",
       level: "Undergraduate",
       institution: "UNC Charlotte",
-      years: "Fall 2024"
+      years: "Fall 2024",
+      evaluation: "Evaluation: 4.45/5.00, Response: 74/90 students"
     },
     {
-      title: "FINN3120 Financial Management",
+      title: "FINN 3120 Financial Management",
       level: "Undergraduate",
       institution: "UNC Charlotte",
-      years: "Summer 2024"
+      years: "Summer 2024",
+      evaluation: "Evaluation: 4.32/5.00, Response: 35/50 students"
     },
     {
-      title: "FINN3120 Financial Management",
+      title: "FINN 3120 Financial Management",
       level: "Undergraduate",
       institution: "UNC Charlotte",
-      years: "Spring 2024"
+      years: "Spring 2024",
+      evaluation: "Evaluation: 4.50/5.00, Response: 80/95 students"
     }
   ];
 
@@ -27,7 +30,7 @@ const SimpleTeaching = () => {
           <h2 className="text-4xl font-light text-foreground mb-16 text-center">
             Teaching
           </h2>
-          
+
           <div className="space-y-8">
             {courses.map((course, index) => (
               <div key={index} className="space-y-2">
@@ -42,6 +45,11 @@ const SimpleTeaching = () => {
                 <p className="text-muted-foreground italic">
                   {course.institution}, {course.years}
                 </p>
+                {course.evaluation && (
+                  <p className="text-muted-foreground">
+                    • {course.evaluation}
+                  </p>
+                )}
               </div>
             ))}
           </div>
