@@ -18,7 +18,7 @@ const SimpleHero = () => {
                   Welcome to my webpage! 
                   </p>
                 <p>
-                  I'm a Ph.D. candidate in the Department of Finance, University of North Carolina at Charlotte (UNC Charlotte).
+                  I am a Ph.D. candidate in Finance at the University of North Carolina at Charlotte, currently on the 2025/26 academic job market.
                 </p>
                 <p>
                   My research interests are <strong>corporate finance</strong> and <strong>asset pricing</strong>. 
