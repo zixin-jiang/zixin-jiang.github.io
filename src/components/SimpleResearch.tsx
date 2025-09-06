@@ -20,22 +20,6 @@ const SimpleResearch = () => {
     }
   ];
 
-  const publications = [
-    {
-      title: "ESG Investing and Stock Returns: A Cross-Country Analysis",
-      journal: "Review of Asset Pricing Studies",
-      year: "2024",
-      coauthors: ["Co-Author Name"],
-      link: "#"
-    },
-    {
-      title: "Dividend Policy and Market Valuation in Family Firms",
-      journal: "Journal of Corporate Finance",
-      year: "2023",
-      coauthors: [],
-      link: "#"
-    }
-  ];
 
   return (
     <section className="py-20 px-8 bg-background">
@@ -49,7 +33,7 @@ const SimpleResearch = () => {
           {/* Working Papers */}
           <div className="mb-16">
             <h3 className="text-2xl font-light text-foreground mb-8">
-              Working Paper
+              Working Papers
             </h3>
             <div className="space-y-8">
               {workingPapers.map((paper, index) => (
@@ -75,34 +59,6 @@ const SimpleResearch = () => {
             </div>
           </div>
 
-          {/* Publications */}
-          <div>
-            <h3 className="text-2xl font-light text-foreground mb-8">
-              Publication
-            </h3>
-            <div className="space-y-8">
-              {publications.map((pub, index) => (
-                <div key={index} className="space-y-2">
-                  <div className="flex flex-wrap items-start gap-2">
-                    <a 
-                      href={pub.link}
-                      className="text-lg text-foreground hover:underline decoration-1 underline-offset-2"
-                    >
-                      {pub.title}
-                    </a>
-                    {pub.coauthors.length > 0 && (
-                      <span className="text-lg text-foreground">
-                        , with {pub.coauthors.join(", ")}.
-                      </span>
-                    )}
-                  </div>
-                  <p className="text-muted-foreground italic">
-                    {pub.journal}, {pub.year}.
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </div>
     </section>
