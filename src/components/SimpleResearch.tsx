@@ -11,22 +11,10 @@ const SimpleResearch = () => {
       coauthors: [],
       status: "FMA (2025); SFA (2025); AREUEA National Conference (2025); UNC Charlotte Finance Seminar (2024)",
       link: "#"
-    },
-    {
-      title: "Labor Covenants in Loan Contracting",
-      coauthors: ["Yongqiang Chu", "Hanzhong Shi", "Liang Tan"],
-      status: "",
-      link: "#"
-    },
-    {
-      title: "Corporate Relocations and Insider Housing Transactions",
-      coauthors: ["Yongqiang Chu", "Hanzhong Shi"],
-      status: "",
-      link: "#"
-    }    
+    }
   ];
 
-    const work-in-progress = [
+    const workInProgress = [
     {
       title: "Labor Covenants in Loan Contracting",
       coauthors: ["Yongqiang Chu", "Hanzhong Shi", "Liang Tan"],
