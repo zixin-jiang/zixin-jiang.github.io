@@ -15,9 +15,15 @@ const SimpleResearch = () => {
     {
       title: "Labor Covenants in Loan Contracting",
       coauthors: ["Yongqiang Chu", "Hanzhong Shi", "Liang Tan"],
-      status: "Under Review at Journal of Financial Economics.",
+      status: "",
       link: "#"
-    }
+    },
+    {
+      title: "Corporate Relocations and Insider Housing Transactions",
+      coauthors: ["Yongqiang Chu", "Hanzhong Shi"],
+      status: "",
+      link: "#"
+    }    
   ];
 
 
