@@ -25,7 +25,7 @@ const SimpleResearch = () => {
       coauthors: [],
       isJobMarketPaper: true,
       status:
-        "AFA PhD Student Poster Session (2026); FMA (2025); CBCF Young Scholars Forum (Spring) & Ba Li Tai Young Finance Scholars Forum (Jointly at Nankai University, 2025); UNC Charlotte Finance Seminar (2025)",
+        "AFA PhD Student Poster Session (2026); FMA (2025); UNC Charlotte Finance Seminar (2025); CBCF Young Scholars Forum & Ba Li Tai Young Finance Scholars Forum (Jointly at Nankai University, 2025)",
       link: "#",
     },
     {
