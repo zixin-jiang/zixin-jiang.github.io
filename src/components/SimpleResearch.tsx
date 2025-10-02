@@ -49,7 +49,7 @@ const SimpleResearch = () => {
             <div className="space-y-8">
               {workingPapers.map((paper, index) => (
                 <div key={index} className="space-y-2">
-                  <div className="flex flex-wrap items-start gap-2">
+                  <div className="flex items-start gap-2">
                     <a
                       href={paper.link}
                       className="text-lg text-foreground hover:underline decoration-1 underline-offset-2"
@@ -78,14 +78,14 @@ const SimpleResearch = () => {
             <div className="space-y-8">
               {workInProgress.map((paper, index) => (
                 <div key={index} className="space-y-2">
-                  <div className="flex flex-wrap items-start gap-2">
+                  <div className="flex items-start gap-2">
                     <a
                       href={paper.link}
                       className="text-lg text-foreground hover:underline decoration-1 underline-offset-2"
                     >
                       {paper.title}
                     </a>
-                    <span className="text-lg text-foreground">
+                    <span className="text-lg text-foreground whitespace-nowrap">
                       {paper.coauthors?.length > 0
                         ? `, with ${paper.coauthors.join(", ")}`
                         : " (Solo-authored)"}
