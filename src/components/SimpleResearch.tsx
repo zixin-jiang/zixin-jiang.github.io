@@ -71,12 +71,7 @@ const SimpleResearch = () => {
                 <div key={index} className="space-y-2">
                   <div className="flex items-start gap-1">
                     <span className="text-lg text-foreground">
-                      <a
-                        href={paper.link}
-                        className="hover:underline decoration-1 underline-offset-2"
-                      >
-                        {paper.title}
-                      </a>
+                      {paper.title}
                       {paper.coauthors?.length > 0
                         ? <>, with {renderCoauthors(paper.coauthors)}</>
                         : " (Solo-authored)"}
@@ -101,12 +96,7 @@ const SimpleResearch = () => {
                 <div key={index} className="space-y-2">
                   <div className="flex items-start gap-1">
                     <span className="text-lg text-foreground">
-                      <a
-                        href={paper.link}
-                        className="hover:underline decoration-1 underline-offset-2"
-                      >
-                        {paper.title}
-                      </a>
+                      {paper.title}
                       {paper.coauthors?.length > 0
                         ? <>, with {renderCoauthors(paper.coauthors)}</>
                         : " (Solo-authored)"}
