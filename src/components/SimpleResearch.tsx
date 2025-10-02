@@ -3,6 +3,7 @@ const SimpleResearch = () => {
     {
       title: "Political Affiliation and the Pricing of Climate Risk in Mortgages",
       coauthors: [],
+      isJobMarketPaper: true,
       status:
         "AFA PhD Student Poster Session (2026); FMA (2025); Ba Li Tai Young Finance Scholar Forum (Nankai University, 2025); UNC Charlotte Finance Seminar (2025)",
       link: "#",
@@ -58,6 +59,8 @@ const SimpleResearch = () => {
                     <span className="text-lg text-foreground">
                       {paper.coauthors?.length > 0
                         ? `, with ${paper.coauthors.join(", ")}`
+                        : paper.isJobMarketPaper
+                        ? " (Job Market Paper)"
                         : " (Solo-authored)"}
                     </span>
                   </div>
