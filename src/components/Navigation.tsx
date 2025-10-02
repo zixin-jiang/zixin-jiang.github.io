@@ -7,9 +7,9 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#2c3e50] text-white">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#404040] text-white">
       <div className="container mx-auto px-6">
-        <div className="flex items-center h-12 gap-8">
+        <div className="flex items-center justify-end h-12 gap-8">
           <button
             onClick={() => scrollToSection('home')}
             className="text-sm hover:text-gray-300 transition-colors"
