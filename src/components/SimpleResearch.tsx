@@ -63,7 +63,7 @@ const SimpleResearch = () => {
                     </span>
                   </div>
                   {paper.isJobMarketPaper && (
-                    <p className="text-muted-foreground italic">Job Market Paper</p>
+                    <p className="text-foreground font-medium italic">Job Market Paper</p>
                   )}
                   <p className="text-muted-foreground italic">{paper.status}</p>
                 </div>
