@@ -49,18 +49,18 @@ const SimpleResearch = () => {
             <div className="space-y-8">
               {workingPapers.map((paper, index) => (
                 <div key={index} className="space-y-2">
-                  <div className="flex items-start gap-2">
-                    <a
-                      href={paper.link}
-                      className="text-lg text-foreground hover:underline decoration-1 underline-offset-2"
-                    >
-                      {paper.title}
-                    </a>
-                    <span className="text-lg text-foreground whitespace-nowrap">
+                  <div className="flex items-start gap-1">
+                    <span className="text-lg text-foreground">
+                      <a
+                        href={paper.link}
+                        className="hover:underline decoration-1 underline-offset-2"
+                      >
+                        {paper.title}
+                      </a>
                       {paper.coauthors?.length > 0
                         ? `, with ${paper.coauthors.join(", ")}`
                         : paper.isJobMarketPaper
-                        ? " (Job Market Paper, Solo-authored)"
+                        ? " (Solo-authored; Job Market Paper)"
                         : " (Solo-authored)"}
                     </span>
                   </div>
@@ -78,14 +78,14 @@ const SimpleResearch = () => {
             <div className="space-y-8">
               {workInProgress.map((paper, index) => (
                 <div key={index} className="space-y-2">
-                  <div className="flex items-start gap-2">
-                    <a
-                      href={paper.link}
-                      className="text-lg text-foreground hover:underline decoration-1 underline-offset-2"
-                    >
-                      {paper.title}
-                    </a>
-                    <span className="text-lg text-foreground whitespace-nowrap">
+                  <div className="flex items-start gap-1">
+                    <span className="text-lg text-foreground">
+                      <a
+                        href={paper.link}
+                        className="hover:underline decoration-1 underline-offset-2"
+                      >
+                        {paper.title}
+                      </a>
                       {paper.coauthors?.length > 0
                         ? `, with ${paper.coauthors.join(", ")}`
                         : " (Solo-authored)"}
