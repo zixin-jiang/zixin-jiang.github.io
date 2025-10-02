@@ -18,10 +18,11 @@ const SimpleHero = () => {
                   Welcome to my webpage! 
                   </p>
                 <p>
-                  I am a Ph.D. candidate in Finance at the University of North Carolina at Charlotte (UNC Charlotte), currently on the 2025/26 academic job market.
+                  I am a Ph.D. candidate in Finance at the University of North Carolina at Charlotte (UNC Charlotte).
                 </p>
                 <p>
-                  My research interests are <strong>corporate finance</strong> and <strong>real estate </strong>.  
+                  My research interests are <strong>corporate finance</strong>, <strong>real estate </strong>, and <strong> banking </strong>.  
+                  I am currently on the academic job market and seeking a faculty position beginning in Fall 2026.
                 </p>
               </div>
             </div>
