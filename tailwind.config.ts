@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        'sans': ['Inter', 'system-ui', 'sans-serif'],
+        'sans': ['Noto Sans SC', 'Inter', 'system-ui', 'sans-serif'],
         'serif': ['Georgia', 'serif'],
       },
       colors: {
