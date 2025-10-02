@@ -32,9 +32,12 @@ const SimpleHero = () => {
                 variant="outline" 
                 size="lg"
                 className="rounded-full px-8 py-3 border-foreground text-foreground hover:bg-foreground hover:text-background transition-colors"
+                asChild
               >
-                <Mail className="w-4 h-4 mr-2" />
-                Email: zjiang5@charlotte.edu
+                <a href="mailto:zjiang5@charlotte.edu">
+                  <Mail className="w-4 h-4 mr-2" />
+                  Email: zjiang5@charlotte.edu
+                </a>
               </Button>
               <Button 
                 variant="outline" 
