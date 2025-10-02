@@ -59,9 +59,8 @@ const SimpleResearch = () => {
                     <span className="text-lg text-foreground">
                       {paper.coauthors?.length > 0
                         ? `, with ${paper.coauthors.join(", ")}`
-                        : paper.isJobMarketPaper
-                        ? " (Job Market Paper)"
                         : " (Solo-authored)"}
+                      {paper.isJobMarketPaper && " [Job Market Paper]"}
                     </span>
                   </div>
                   <p className="text-muted-foreground italic">{paper.status}</p>
