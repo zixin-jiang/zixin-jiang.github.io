@@ -59,11 +59,12 @@ const SimpleResearch = () => {
                       </a>
                       {paper.coauthors?.length > 0
                         ? `, with ${paper.coauthors.join(", ")}`
-                        : paper.isJobMarketPaper
-                        ? " (Solo-authored; Job Market Paper)"
                         : " (Solo-authored)"}
                     </span>
                   </div>
+                  {paper.isJobMarketPaper && (
+                    <p className="text-muted-foreground italic">Job Market Paper</p>
+                  )}
                   <p className="text-muted-foreground italic">{paper.status}</p>
                 </div>
               ))}
