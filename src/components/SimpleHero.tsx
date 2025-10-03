@@ -20,7 +20,7 @@ const SimpleHero = () => {
                 <p>
                   I am a Ph.D. candidate in Finance at the <a href="https://belkcollege.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:opacity-80 transition-opacity">Belk College of Business</a>, <a href="https://www.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:opacity-80 transition-opacity">University of North Carolina at Charlotte (UNC Charlotte)</a>.
                 </p>
-                <p>
+                <p className="text-foreground">
                   My research interests are empirical corporate finance, real estate finance, climate finance, and financial intermediation.
                   I am currently on the academic job market and seeking a faculty position beginning in Fall 2026.
                 </p>
