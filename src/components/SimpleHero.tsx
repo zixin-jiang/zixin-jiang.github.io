@@ -18,7 +18,7 @@ const SimpleHero = () => {
                   Welcome to my webpage! 
                   </p>
                 <p>
-                  I am a Ph.D. candidate in Finance at the <a href="https://belkcollege.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-foreground/80 transition-colors">Belk College of Business</a>, <a href="https://www.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-foreground/80 transition-colors">University of North Carolina at Charlotte (UNC Charlotte)</a>.
+                  I am a Ph.D. candidate in Finance at the <a href="https://belkcollege.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:opacity-80 transition-opacity">Belk College of Business</a>, <a href="https://www.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:opacity-80 transition-opacity">University of North Carolina at Charlotte (UNC Charlotte)</a>.
                 </p>
                 <p>
                   My research interests are <strong>corporate finance</strong>, <strong>real estate </strong>, and <strong> banking </strong>.  
