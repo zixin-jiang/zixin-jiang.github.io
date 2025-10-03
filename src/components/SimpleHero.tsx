@@ -22,7 +22,7 @@ const SimpleHero = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-4xl lg:text-5xl font-light text-foreground leading-tight">
-                Zixin Jiang<span className="font-chinese">（江紫新）</span>
+                Zixin Jiang（江紫新）
               </h1>
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
