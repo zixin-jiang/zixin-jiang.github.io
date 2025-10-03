@@ -29,10 +29,10 @@ const SimpleHero = () => {
 
             {/* Education Section */}
             <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <GraduationCap className="w-6 h-6 text-foreground" />
+              <div className="flex items-center gap-2">
+                <GraduationCap className="w-5 h-5 text-foreground" />
               </div>
-              <div className="space-y-2 text-muted-foreground pl-9">
+              <div className="space-y-2 text-muted-foreground">
                 <p>
                   <span className="font-medium text-foreground">Ph.D. in Finance</span>, University of North Carolina at Charlotte, Expected 2026
                 </p>
