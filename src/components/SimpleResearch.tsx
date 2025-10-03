@@ -105,10 +105,12 @@ const SimpleResearch = () => {
                   <div className="flex items-start gap-1">
                     <span className="text-lg text-foreground">
                       {paper.title}
-                      {paper.coauthors?.length > 0
-                        ? <>, with {renderCoauthors(paper.coauthors)}</>
-                        : " (Solo-authored)"}
                     </span>
+                    {paper.coauthors?.length > 0 && (
+                      <span className="text-lg text-muted-foreground">
+                        , with {renderCoauthors(paper.coauthors)}
+                      </span>
+                    )}
                   </div>
                   {paper.status && (
                     <p className="text-muted-foreground italic">{paper.status}</p>
