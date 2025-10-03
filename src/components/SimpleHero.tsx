@@ -45,16 +45,16 @@ const SimpleHero = () => {
               </div>
               <div className="space-y-3 text-lg text-muted-foreground">
                 <p>
-                  Ph.D. in Finance, <span className="font-medium">UNC Charlotte</span> 2026 (expected)
+                  Ph.D. in Finance, <span>UNC Charlotte</span> 2026 (expected)
                 </p>
                 <p className="text-foreground">
                   <span className="font-medium">Advisor: Dr. <a href="https://sites.google.com/site/yongqiangchu/" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--link))] hover:text-[hsl(var(--link-hover))] transition-colors">Yongqiang Chu</a></span>
                 </p>
                 <p>
-                  M.A. in Economics, <span className="font-medium">Kent State University</span> 2021
+                  M.A. in Economics, <span>Kent State University</span> 2021
                 </p>
                 <p>
-                  B.A. in Economics (Financial Engineering), <span className="font-medium">Wuhan University</span> 2018
+                  B.A. in Economics (Financial Engineering), <span>Wuhan University</span> 2018
                 </p>
               </div>
             </div>
