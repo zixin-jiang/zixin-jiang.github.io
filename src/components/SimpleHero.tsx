@@ -48,7 +48,7 @@ const SimpleHero = () => {
                   Ph.D. in Finance, <span className="font-medium">UNC Charlotte</span> 2026 (expected)
                 </p>
                 <p className="pl-6 text-foreground">
-                  Dissertation Chair: <a href="https://sites.google.com/site/yongqiangchu/" target="_blank" rel="noopener noreferrer" className="hover:underline">Dr. Yongqiang Chu</a>
+                  Advisor: <a href="https://sites.google.com/site/yongqiangchu/" target="_blank" rel="noopener noreferrer" className="hover:underline">Dr. Yongqiang Chu</a>
                 </p>
                 <p>
                   M.A. in Economics, <span className="font-medium">Kent State University</span> 2021
