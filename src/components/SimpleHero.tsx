@@ -48,7 +48,7 @@ const SimpleHero = () => {
                   Ph.D. in Finance, <span className="font-medium">UNC Charlotte</span> 2026 (expected)
                 </p>
                 <p className="text-foreground">
-                  Advisor: Dr. <a href="https://sites.google.com/site/yongqiangchu/" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--link))] hover:text-[hsl(var(--link-hover))] transition-colors font-medium">Yongqiang Chu</a>
+                  <span className="font-medium">Advisor: Dr. <a href="https://sites.google.com/site/yongqiangchu/" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--link))] hover:text-[hsl(var(--link-hover))] transition-colors">Yongqiang Chu</a></span>
                 </p>
                 <p>
                   M.A. in Economics, <span className="font-medium">Kent State University</span> 2021
