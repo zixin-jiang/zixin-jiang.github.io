@@ -34,7 +34,7 @@ const SimpleHero = () => {
               </div>
               <div className="space-y-2 text-muted-foreground">
                 <p>
-                  <span className="font-medium">Ph.D. in Finance</span>, UNC Charlotte Expected 2026
+                  <span className="font-medium">Ph.D. in Finance</span>, UNC Charlotte 2026 (expected)
                 </p>
                 <p>
                   <span className="font-medium">M.A. in Economics</span>, Kent State University 2021
