@@ -7,7 +7,18 @@ const SimpleHero = () => {
     <section className="min-h-screen bg-background flex items-center py-16 px-8">
       <div className="container mx-auto max-w-6xl">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left Column - Text Content */}
+          {/* Left Column - Image */}
+          <div className="flex justify-center lg:justify-start">
+            <div className="relative">
+              <img 
+                src={professorImage}
+                alt="Professional headshot"
+                className="w-80 h-96 object-cover rounded-lg"
+              />
+            </div>
+          </div>
+          
+          {/* Right Column - Text Content */}
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-4xl lg:text-5xl font-light text-foreground leading-tight">
@@ -67,17 +78,6 @@ const SimpleHero = () => {
                   CV
                 </a>
               </Button>
-            </div>
-          </div>
-          
-          {/* Right Column - Image */}
-          <div className="flex justify-center lg:justify-end">
-            <div className="relative">
-              <img 
-                src={professorImage}
-                alt="Professional headshot"
-                className="w-80 h-96 object-cover rounded-lg"
-              />
             </div>
           </div>
         </div>
