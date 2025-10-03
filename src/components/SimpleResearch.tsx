@@ -76,7 +76,7 @@ const SimpleResearch = () => {
                       {paper.title}
                       {paper.coauthors?.length > 0
                         ? <>, with {renderCoauthors(paper.coauthors)}</>
-                        : " (Solo-authored)"}
+                        : " (solo-authored)"}
                     </span>
                   </div>
                   {paper.isJobMarketPaper && (
@@ -95,7 +95,7 @@ const SimpleResearch = () => {
           </div>
 
           {/* Work in Progress */}
-          <div>
+          {/* <div>
             <h3 className="text-2xl font-light text-foreground mb-8">
               Work in Progress
             </h3>
@@ -118,7 +118,7 @@ const SimpleResearch = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
