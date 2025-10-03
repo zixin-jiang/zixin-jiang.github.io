@@ -43,7 +43,7 @@ const SimpleHero = () => {
               <div className="flex items-center gap-2">
                 <GraduationCap className="w-5 h-5 text-foreground" />
               </div>
-              <div className="space-y-3 text-muted-foreground">
+              <div className="space-y-3 text-lg text-muted-foreground">
                 <p>
                   Ph.D. in Finance, <span className="font-medium">UNC Charlotte</span> 2026 (expected)
                 </p>
