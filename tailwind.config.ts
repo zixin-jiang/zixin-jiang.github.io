@@ -16,7 +16,7 @@ export default {
       fontFamily: {
         'sans': ['Noto Sans SC', 'Inter', 'system-ui', 'sans-serif'],
         'serif': ['Georgia', 'serif'],
-        'chinese-serif': ['Long Cang', 'Noto Sans SC', 'serif'],
+        'chinese-serif': ['Noto Serif SC', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",
