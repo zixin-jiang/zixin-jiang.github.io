@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Mail } from "lucide-react";
-import professorImage from "@/assets/professor-headshot-2.jpg";
+import professorImage from "@/assets/professor-headshot.jpg";
 
 const SimpleHero = () => {
   return (
