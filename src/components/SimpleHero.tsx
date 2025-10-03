@@ -31,7 +31,6 @@ const SimpleHero = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <GraduationCap className="w-6 h-6 text-foreground" />
-                <h2 className="text-2xl font-light text-foreground">Education</h2>
               </div>
               <div className="space-y-2 text-muted-foreground pl-9">
                 <p>
@@ -41,7 +40,7 @@ const SimpleHero = () => {
                   <span className="font-medium text-foreground">M.A. in Economics</span>, Kent State University, 2021
                 </p>
                 <p>
-                  <span className="font-medium text-foreground">Bachelor in Economics</span>, Wuhan University, 2018
+                  <span className="font-medium text-foreground">B.A. in Finance</span>, Wuhan University, 2018
                 </p>
               </div>
             </div>
