@@ -41,7 +41,7 @@ const SimpleHero = () => {
                   <span className="font-medium text-foreground">M.A. in Economics</span>, Kent State University, May 2021
                 </p>
                 <p>
-                  <span className="font-medium text-foreground">Bachelor's Degree in Economics</span>, Wuhan University, June 2018
+                  <span className="font-medium text-foreground">Bachelor in Economics</span>, Wuhan University, June 2018
                 </p>
               </div>
             </div>
