@@ -13,7 +13,7 @@ const SimpleHero = () => {
               <h1 className="text-4xl lg:text-5xl font-light text-foreground leading-tight">
                 Zixin Jiang（江紫新）
               </h1>
-              <div className="space-y-4 text-lg text-muted-foreground leading-relaxed text-justify">
+              <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
                   Welcome to my webpage! 
                   </p>
@@ -32,7 +32,7 @@ const SimpleHero = () => {
               <div className="flex items-center gap-2">
                 <GraduationCap className="w-5 h-5 text-foreground" />
               </div>
-              <div className="space-y-2 text-muted-foreground">
+              <div className="space-y-3 text-muted-foreground">
                 <p>
                   <span className="font-medium">Ph.D. in Finance</span>, UNC Charlotte 2026 (expected)
                 </p>
