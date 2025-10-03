@@ -33,22 +33,16 @@ const SimpleHero = () => {
                 <GraduationCap className="w-6 h-6 text-foreground" />
                 <h2 className="text-2xl font-light text-foreground">Education</h2>
               </div>
-              <div className="space-y-4 text-muted-foreground pl-9">
-                <div>
-                  <p className="font-medium text-foreground">Ph.D. in Finance</p>
-                  <p>University of North Carolina at Charlotte, Belk College of Business</p>
-                  <p className="text-sm">Expected May 2026</p>
-                </div>
-                <div>
-                  <p className="font-medium text-foreground">M.A. in Economics</p>
-                  <p>Kent State University, College of Business Administration</p>
-                  <p className="text-sm">May 2021</p>
-                </div>
-                <div>
-                  <p className="font-medium text-foreground">Bachelor's Degree in Economics</p>
-                  <p>Wuhan University, Economics and Management School</p>
-                  <p className="text-sm">June 2018</p>
-                </div>
+              <div className="space-y-2 text-muted-foreground pl-9">
+                <p>
+                  <span className="font-medium text-foreground">Ph.D. in Finance</span>, University of North Carolina at Charlotte, Expected May 2026
+                </p>
+                <p>
+                  <span className="font-medium text-foreground">M.A. in Economics</span>, Kent State University, May 2021
+                </p>
+                <p>
+                  <span className="font-medium text-foreground">Bachelor's Degree in Economics</span>, Wuhan University, June 2018
+                </p>
               </div>
             </div>
             
