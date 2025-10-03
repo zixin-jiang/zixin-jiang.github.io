@@ -34,13 +34,13 @@ const SimpleHero = () => {
               </div>
               <div className="space-y-2 text-muted-foreground pl-9">
                 <p>
-                  <span className="font-medium text-foreground">Ph.D. in Finance</span>, University of North Carolina at Charlotte, 2026
+                  <span className="font-medium text-foreground">Ph.D. in Finance</span>, University of North Carolina at Charlotte, Expected 2026
                 </p>
                 <p>
                   <span className="font-medium text-foreground">M.A. in Economics</span>, Kent State University, 2021
                 </p>
                 <p>
-                  <span className="font-medium text-foreground">B.A. in Finance</span>, Wuhan University, 2018
+                  <span className="font-medium text-foreground">B.A. in Economics (Financial Engineering)</span>, Wuhan University, 2018
                 </p>
               </div>
             </div>
