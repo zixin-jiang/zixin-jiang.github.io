@@ -13,7 +13,7 @@ const SimpleHero = () => {
               <h1 className="text-4xl lg:text-5xl font-light text-foreground leading-tight">
                 Zixin Jiang（江紫新）
               </h1>
-              <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
+              <div className="space-y-4 text-lg text-muted-foreground leading-relaxed text-justify">
                 <p>
                   Welcome to my webpage! 
                   </p>
