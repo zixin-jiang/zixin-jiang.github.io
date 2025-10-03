@@ -29,7 +29,7 @@ const SimpleHero = () => {
                   Welcome to my webpage! 
                   </p>
                 <p>
-                  I am a Ph.D. candidate in Finance at the <a href="https://belkcollege.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--link))] hover:text-[hsl(var(--link-hover))] transition-colors">Belk College of Business</a>, <a href="https://www.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--link))] hover:text-[hsl(var(--link-hover))] transition-colors">University of North Carolina at Charlotte (UNC Charlotte)</a>.
+                  I am a Ph.D. candidate in Finance at the <a href="https://belkcollege.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:opacity-80 transition-opacity">Belk College of Business</a>, <a href="https://www.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:opacity-80 transition-opacity">University of North Carolina at Charlotte (UNC Charlotte)</a>.
                 </p>
                 <p>
                   My research interests are <span className="font-medium text-foreground">empirical corporate finance</span>, <span className="font-medium text-foreground">real estate finance</span>, <span className="font-medium text-foreground">climate finance</span>, and <span className="font-medium text-foreground">financial intermediation</span>.
@@ -48,7 +48,7 @@ const SimpleHero = () => {
                   Ph.D. in Finance, <span className="font-medium">UNC Charlotte</span> 2026 (expected)
                 </p>
                 <p className="text-foreground">
-                  <span className="text-[hsl(var(--link))] font-medium">Advisor:</span> <a href="https://sites.google.com/site/yongqiangchu/" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--link))] hover:text-[hsl(var(--link-hover))] transition-colors">Dr. Yongqiang Chu</a>
+                  Advisor: <a href="https://sites.google.com/site/yongqiangchu/" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--link))] hover:text-[hsl(var(--link-hover))] transition-colors font-medium">Dr. Yongqiang Chu</a>
                 </p>
                 <p>
                   M.A. in Economics, <span className="font-medium">Kent State University</span> 2021
