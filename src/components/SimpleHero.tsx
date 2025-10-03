@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail } from "lucide-react";
+import { Mail, GraduationCap } from "lucide-react";
 import professorImage from "@/assets/professor-headshot-2.jpg";
 
 const SimpleHero = () => {
@@ -24,6 +24,21 @@ const SimpleHero = () => {
                   My research interests are <strong>corporate finance</strong>, <strong>real estate </strong>, and <strong> banking </strong>.  
                   I am currently on the academic job market and seeking a faculty position beginning in Fall 2026.
                 </p>
+              </div>
+            </div>
+
+            {/* Education Section */}
+            <div className="space-y-4">
+              <div className="flex items-center gap-3">
+                <GraduationCap className="w-6 h-6 text-foreground" />
+                <h2 className="text-2xl font-light text-foreground">Education</h2>
+              </div>
+              <div className="space-y-3 text-muted-foreground pl-9">
+                <div>
+                  <p className="font-medium text-foreground">Ph.D. in Finance</p>
+                  <p>University of North Carolina at Charlotte</p>
+                  <p className="text-sm">Expected 2026</p>
+                </div>
               </div>
             </div>
             
