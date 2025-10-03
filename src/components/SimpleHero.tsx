@@ -5,8 +5,8 @@ import professorImage from "@/assets/professor-headshot-2.jpg";
 const SimpleHero = () => {
   return (
     <section className="min-h-screen bg-background flex items-center py-16 px-8">
-      <div className="container mx-auto max-w-6xl">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+      <div className="container mx-auto max-w-7xl">
+        <div className="grid lg:grid-cols-[380px_1fr] gap-16 items-center">
           {/* Left Column - Image */}
           <div className="flex justify-center lg:justify-start">
             <div className="relative">
