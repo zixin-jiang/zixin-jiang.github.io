@@ -29,7 +29,7 @@ const SimpleHero = () => {
                   Welcome to my webpage! 
                   </p>
                 <p>
-                  I am a Ph.D. candidate in Finance at the <a href="https://belkcollege.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:opacity-80 transition-opacity">Belk College of Business</a>, <a href="https://www.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:opacity-80 transition-opacity">University of North Carolina at Charlotte (UNC Charlotte)</a>.
+                  I am a Ph.D. candidate in Finance at the <a href="https://belkcollege.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--link))] hover:text-[hsl(var(--link-hover))] transition-colors">Belk College of Business</a>, <a href="https://www.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--link))] hover:text-[hsl(var(--link-hover))] transition-colors">University of North Carolina at Charlotte (UNC Charlotte)</a>.
                 </p>
                 <p>
                   My research interests are <span className="font-medium text-foreground">empirical corporate finance</span>, <span className="font-medium text-foreground">real estate finance</span>, <span className="font-medium text-foreground">climate finance</span>, and <span className="font-medium text-foreground">financial intermediation</span>.
@@ -63,7 +63,7 @@ const SimpleHero = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                className="rounded-full px-8 py-3 border-foreground text-foreground hover:bg-foreground hover:text-background transition-colors"
+                className="rounded-full px-8 py-3 border-[hsl(var(--link))] text-[hsl(var(--link))] hover:bg-[hsl(var(--link))] hover:text-white transition-colors"
                 asChild
               >
                 <a href="mailto:zjiang5@charlotte.edu">
@@ -74,7 +74,7 @@ const SimpleHero = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                className="rounded-full px-8 py-3 border-foreground text-foreground hover:bg-foreground hover:text-background transition-colors"
+                className="rounded-full px-8 py-3 border-[hsl(var(--link))] text-[hsl(var(--link))] hover:bg-[hsl(var(--link))] hover:text-white transition-colors"
                 asChild
               >
                 <a href="/CV_Zixin_Jiang_10012025.pdf" target="_blank" rel="noopener noreferrer">
