@@ -84,7 +84,7 @@ const SimpleResearch = () => {
                   )}
                   <p className="text-foreground italic text-sm">{paper.status}</p>
                   {paper.abstract && (
-                    <p className="text-muted-foreground text-sm leading-relaxed">
+                    <p className="text-muted-foreground text-sm leading-relaxed text-justify">
                       <span className="font-medium">Abstract: </span>
                       {paper.abstract}
                     </p>
