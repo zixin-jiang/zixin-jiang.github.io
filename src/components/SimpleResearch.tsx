@@ -24,6 +24,7 @@ const SimpleResearch = () => {
       title: "Political Affiliation and the Pricing of Climate Risk in Mortgages",
       coauthors: [],
       isJobMarketPaper: true,
+      abstract: "Using voter registration data for loan officers originating residential mortgages in coastal areas, I find that Democratic loan officers charge higher loan spreads for mortgages on properties exposed to sea level rise (SLR) than do Republican loan officers. The results hold with granular property location and loan officer fixed effects. Partisan pricing is more pronounced for properties outside FEMA-designated flood zones, for loan officers located in hurricane-prone states, and in communities with fewer climate change believers. These findings highlight how political ideology shapes the pricing of climate risk in mortgages.",
       status:
         "AFA PhD Student Poster Session (2026); FMA (2025); UNC Charlotte Finance Seminar (2025); CBCF Young Scholars Forum & Ba Li Tai Young Finance Scholars Forum (Nankai University, 2025)",
       link: "#",
@@ -31,6 +32,7 @@ const SimpleResearch = () => {
     {
       title: "Bank Mergers and Loan Officer Reallocation",
       coauthors: [],
+      abstract: "I find that mortgage loan officer turnover increases after bank mergers. The effect is more pronounced for officers working in areas where both target and acquiring banks have mortgage businesses. Officers staying in the merged banks originate more loans than those leaving for other banks. The findings suggest that merged banks trying to improve efficiency by reducing redundant employees. Focusing on officers in overlapping areas, I find that officers in merged banks originate fewer loans closer to their offices. I also find that officers in merged banks originate fewer small loans after mergers. These results suggest that bank mergers lead to the loss of soft information and limit the availability of small mortgages.",
       status:
         "FMA (2025); SFA (2025); AREUEA National Conference (2025); UNC Charlotte Finance Seminar (2024)",
       link: "#",
@@ -68,7 +70,7 @@ const SimpleResearch = () => {
             </h3>
             <div className="space-y-8">
               {workingPapers.map((paper, index) => (
-                <div key={index} className="space-y-2">
+                <div key={index} className="space-y-3">
                   <div className="flex items-start gap-1">
                     <span className="text-lg text-foreground">
                       {paper.title}
@@ -80,7 +82,13 @@ const SimpleResearch = () => {
                   {paper.isJobMarketPaper && (
                     <p className="text-foreground font-medium italic">Job Market Paper</p>
                   )}
-                  <p className="text-muted-foreground italic">{paper.status}</p>
+                  {paper.abstract && (
+                    <p className="text-muted-foreground text-sm leading-relaxed">
+                      <span className="font-medium">Abstract: </span>
+                      {paper.abstract}
+                    </p>
+                  )}
+                  <p className="text-muted-foreground italic text-sm">{paper.status}</p>
                 </div>
               ))}
             </div>
