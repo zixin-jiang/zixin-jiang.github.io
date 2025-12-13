@@ -5,7 +5,8 @@ const SimpleTeaching = () => {
       level: "Undergraduate",
       institution: "UNC Charlotte",
       years: "Fall 2024",
-      evaluation: "Evaluation: 4.45/5.00, Response: 74/90 students"
+      evaluation: "Evaluation: 4.45/5.00, Response: 74/90 students",
+      evaluationLink: "/Evaluation_Fall_2024.pdf"
     },
     {
       title: "FINN 3120 Financial Management",
@@ -46,7 +47,20 @@ const SimpleTeaching = () => {
                   {course.institution}, {course.years}
                 </p>
                 {course.evaluation && (
-                  <p className="text-muted-foreground">{course.evaluation}</p>
+                  <p className="text-muted-foreground">
+                    {course.evaluationLink ? (
+                      <a 
+                        href={course.evaluationLink} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-[hsl(var(--link))] hover:text-[hsl(var(--link-hover))] transition-colors"
+                      >
+                        {course.evaluation}
+                      </a>
+                    ) : (
+                      course.evaluation
+                    )}
+                  </p>
                 )}
               </div>
             ))}
