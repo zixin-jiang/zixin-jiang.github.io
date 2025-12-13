@@ -1,5 +1,14 @@
+interface Course {
+  title: string;
+  level: string;
+  institution: string;
+  years: string;
+  evaluation: string;
+  evaluationLink?: string;
+}
+
 const SimpleTeaching = () => {
-  const courses = [
+  const courses: Course[] = [
     {
       title: "FINN 3120 Financial Management",
       level: "Undergraduate",
