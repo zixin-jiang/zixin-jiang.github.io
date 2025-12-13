@@ -77,7 +77,7 @@ const SimpleHero = () => {
                 className="rounded-full px-8 py-3 border-foreground text-foreground hover:bg-foreground hover:text-background transition-colors"
                 asChild
               >
-                <a href="/CV_Zixin_Jiang_10012025.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="#" target="_blank" rel="noopener noreferrer">
                   CV
                 </a>
               </Button>
