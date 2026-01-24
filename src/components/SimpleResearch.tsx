@@ -24,7 +24,7 @@ const SimpleResearch = () => {
       title: "Political Affiliation and the Pricing of Climate Risk in Mortgages",
       coauthors: [],
       isJobMarketPaper: true,
-      abstract: "Using voter registration data for loan officers originating residential mortgages in coastal areas, I find that Democratic loan officers charge higher loan spreads for mortgages on properties exposed to sea level rise (SLR) than do Republican loan officers. The results hold with granular property location and loan officer fixed effects. Partisan pricing is more pronounced for properties outside FEMA-designated flood zones, for loan officers located in hurricane-prone states, and in communities with fewer climate change believers. These findings highlight how political ideology shapes the pricing of climate risk in mortgages.",
+      abstract: "Using voter registration data for loan officers originating residential mortgages in coastal areas, I find that Democratic loan officers charge higher rate spreads for mortgages on properties exposed to sea level rise (SLR) than do Republican loan officers. The results hold with granular property location and loan officer fixed effects. Partisan pricing is more pronounced for properties outside FEMA-designated flood zones, for loan officers located in hurricane-prone states, and in communities with fewer climate change believers. These findings highlight how political ideology shapes the pricing of climate risk in mortgages.",
       status:
         "AFA PhD Student Poster Session (2026); FMA (2025); UNC Charlotte Finance Seminar (2025); CBCF Young Scholars Forum & Ba Li Tai Young Finance Scholars Forum (Nankai University, 2025)",
       link: "#",
