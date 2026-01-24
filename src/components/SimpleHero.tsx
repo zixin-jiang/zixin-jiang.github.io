@@ -22,7 +22,7 @@ const SimpleHero = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-4xl lg:text-5xl font-light text-foreground leading-tight">
-                Zixin Jiang<span className="font-chinese-serif">（江紫新）</span>
+                Zixin Jiang
               </h1>
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
@@ -32,7 +32,7 @@ const SimpleHero = () => {
                   I am a Ph.D. candidate in Finance at the <a href="https://belkcollege.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--link))] hover:text-[hsl(var(--link-hover))] transition-colors">Belk College of Business</a>, <a href="https://www.charlotte.edu/" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--link))] hover:text-[hsl(var(--link-hover))] transition-colors">University of North Carolina at Charlotte (UNC Charlotte)</a>.
                 </p>
                 <p>
-                  My research interests are <span className="font-medium text-foreground">empirical corporate finance</span>, <span className="font-medium text-foreground">real estate finance</span>, <span className="font-medium text-foreground">climate finance</span>, and <span className="font-medium text-foreground">financial intermediation</span>.
+                  My research interests are <span className="font-medium text-foreground">real estate finance</span>, <span className="font-medium text-foreground">empirical corporate finance</span>, <span className="font-medium text-foreground">climate finance</span>, and <span className="font-medium text-foreground">financial intermediation</span>.
                   I am currently on the academic job market and seeking a faculty position beginning in Fall 2026.
                 </p>
               </div>
