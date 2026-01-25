@@ -28,6 +28,7 @@ const SimpleResearch = () => {
       status:
         "AFA PhD Student Poster Session (2026); FMA (2025); UNC Charlotte Finance Seminar (2025); CBCF Young Scholars Forum & Ba Li Tai Young Finance Scholars Forum (Nankai University, 2025)",
       link: "#",
+      pdfLink: "/Political_Affiliation_and_the_Pricing_of_Climate_Risk_in_Mortgages.pdf",
     },
     {
       title: "Bank Mergers and Loan Officer Reallocation",
@@ -36,6 +37,7 @@ const SimpleResearch = () => {
       status:
         "FMA (2025); SFA (2025); AREUEA National Conference (2025); UNC Charlotte Finance Seminar (2024)",
       link: "#",
+      pdfLink: "/MA_and_Loan_Officers.pdf",
     },
   ];
 
@@ -72,8 +74,21 @@ const SimpleResearch = () => {
               {workingPapers.map((paper, index) => (
                 <div key={index} className="space-y-3">
                   <div className="flex items-start gap-1">
+                    {paper.pdfLink ? (
+                      <a 
+                        href={paper.pdfLink} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-lg text-foreground hover:underline"
+                      >
+                        {paper.title}
+                      </a>
+                    ) : (
+                      <span className="text-lg text-foreground">
+                        {paper.title}
+                      </span>
+                    )}
                     <span className="text-lg text-foreground">
-                      {paper.title}
                       {paper.coauthors?.length > 0
                         ? <>, with {renderCoauthors(paper.coauthors)}</>
                         : " (solo-authored)"}
